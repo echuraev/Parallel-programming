@@ -1,0 +1,14 @@
+# Number of steps by x
+nx = 900000
+# Number of steps by time
+ntimesteps = 500
+# Step by x
+hx = 0.001
+# Step by time
+dt = 0.004
+# Velocity by x
+ux = -0.3
+
+
+# INPUT FILES #
+ro = "ro.init"

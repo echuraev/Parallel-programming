@@ -1,0 +1,10 @@
+#ifndef _PARSE_CONF_H_
+#define _PARSE_CONF_H_
+
+#include <iostream>
+#include <map>
+
+std::map<std::string, std::string> parse_params(int argc, char** argv);
+double ** parse_file_matrix(const char* path, const char* file_name);
+
+#endif
